@@ -1,0 +1,95 @@
+# Contributing
+
+Thank you for helping connect technical professionals with the communities that need them. This project collects volunteer opportunities, resources, and practical guidance for bringing security and IT skills to non-profits, community organizations, and underserved groups. Contributions from anyone are welcome, no matter your technical background.
+
+## Ways to contribute
+
+- **Share an opportunity**: a non-profit, school, library, community group, or program looking for technical volunteers, advisors, or board members.
+- **Add a resource**: free tools, training materials, checklists, or guides suited to organizations with limited technical staff.
+- **Write or improve guidance**: plain-language explanations of security concepts, lessons learned from your own volunteer work, or templates others can reuse.
+- **Fix something**: broken links, outdated information, typos, or unclear wording.
+- **Suggest an idea**: open an issue if you have something in mind but aren't sure where it fits.
+
+## How to submit
+
+### Not comfortable with Git or pull requests?
+
+Open an [issue](../../issues/new) describing what you'd like to add. A maintainer will help turn it into a contribution. You don't need to know Git to take part.
+
+### Submitting a pull request
+
+1. Fork the repository.
+2. Create a branch with a short descriptive name (for example, `add-food-bank-opportunity`).
+3. Make your changes, following the formats below.
+4. Commit with sign-off (`git commit -s`) to confirm you agree to the licensing terms described at the end of this document.
+5. Open a pull request with a brief description of what you added and why it's useful.
+
+Please keep each pull request focused on one opportunity, resource, or topic. Smaller pull requests are easier to verify and merge.
+
+## Formats
+
+### Opportunity listing
+
+```markdown
+### Organization or Program Name
+
+- **Location:** City, State/Region (or "Remote")
+- **Type:** Volunteer / Board seat / Advisory / Mentoring / Teaching / Other
+- **Skills needed:** e.g., network security, application security, IT administration, training, policy
+- **Time commitment:** e.g., a few hours a month, one-time project, ongoing
+- **Description:** One to three sentences on what the organization does and what help they need.
+- **How to get involved:** Link to the organization's official volunteer page or contact method.
+- **Last verified:** YYYY-MM-DD
+```
+
+### Resource listing
+
+```markdown
+- **[Resource Name](https://link)**: One sentence on what it is and who it helps. *Free / Paid / Free for non-profits.*
+```
+
+## Verification
+
+Every contribution is reviewed by a maintainer before it's merged. For opportunities, we check that:
+
+- The organization exists and the listing links to an official source (its own website, volunteer page, or a recognized volunteer platform).
+- The opportunity is current and the details are accurate.
+- The organization is comfortable being listed, where that isn't already clear from a public call for volunteers.
+
+We aim to review contributions within **[14 days]**. If we can't verify an opportunity, we'll comment on the pull request explaining what's missing rather than closing it without explanation.
+
+Listings older than a year without re-verification may be marked as stale or removed.
+
+## Content guidelines
+
+This project serves organizations that are often more vulnerable than the average target. Please help keep it safe and trustworthy.
+
+**Please do:**
+
+- Write in plain language. Many readers will not have a technical background.
+- Link to official and reputable sources.
+- Disclose any affiliation you have with an organization or resource you're adding.
+
+**Please don't:**
+
+- **Post specific security weaknesses of any named organization.** Describe issues in general terms only. If you've found a real vulnerability at an organization, contact them privately.
+- Include personal information such as private email addresses, phone numbers, or home addresses. Use an organization's public contact channels.
+- Submit paid-service advertising, affiliate links, or lead-generation for commercial work.
+- Copy content you don't have the right to share. Link to it instead.
+
+## Code of conduct
+
+Be respectful and constructive. We welcome contributors of every experience level, from seasoned professionals to students and first-time contributors. Harassment, discrimination, or personal attacks will not be tolerated, and maintainers may remove contributions or block participants who violate this expectation.
+
+## Licensing of contributions
+
+By submitting a contribution, you agree that it is licensed under the same terms as this repository:
+
+- **Written content** (text, guides, listings) is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+- **Code** (scripts, tools, templates in code form), if any, is licensed under the [MIT License](https://opensource.org/license/mit).
+
+You also confirm that you wrote the contribution yourself or otherwise have the right to submit it under these licenses. Signing off your commits (`git commit -s`) records this agreement.
+
+## Questions
+
+Not sure whether something fits? Open an issue and ask. There are no bad questions here.
